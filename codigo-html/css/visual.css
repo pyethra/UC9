@@ -1,0 +1,87 @@
+*{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+/*Inicio cabeçalho*/
+header img{
+    width: 100px;
+}
+header nav{
+    float: right;
+}
+header nav ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+header nav ul li{
+    margin-left: 20px;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+header nav ul li a:hover{
+    color:floralwhite;
+    background-color: darkcyan;
+}
+
+/*Inicio banner*/
+#banner img, #novidades img{
+    width: 450px;
+}
+#banner, #novidades{
+    background-color: lightblue;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 50px;
+    column-gap: 10px;
+    margin-top: 10px;
+    }
+#banner div, #novidades{
+    width: 500px;
+    color: white;
+}
+/*Fim banner*/
+
+
+/*Inicio destaques*/
+.grupo-card{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    column-gap: 10px;
+}
+.senai-card {
+    width: 150px;
+    border: 1px solid rgb(38, 38, 38);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    }
+.senai-card img {
+    width: 100%;
+    border-radius: 4px 4px 0px 0px;
+}
+.senai-card div {
+    padding: 5px;
+}
+#destaque h2, #saiba_mais {
+    text-align: center;
+}
+/*Fim destaques*/
+
+
+/*Inicio Carousel*/
+.carrousel-caption {
+    background-color: whitesmoke;
+}
+#carouselExampleCaptions {
+    height: 40vw;
+}
+.carousel-item img{
+    height: 40vw;
+}
+/*Fim Carousel*/
