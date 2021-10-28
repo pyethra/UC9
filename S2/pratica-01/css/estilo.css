@@ -1,0 +1,97 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header img {
+  width: 100px;
+}
+header nav {
+  float: right;
+}
+header nav ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+header nav ul li {
+  margin-left: 10px;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+header nav ul li a:hover {
+  background-color: cyan;
+  color: crimson;
+}
+/* Informções sobre o banner e novidades */ 
+#banner img, #novidades img {
+  width: 300px;
+}
+#banner, #novidades {
+  background-color: #3CD1DB;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 10px;
+  column-gap: 10px;
+  margin-top: 5px;
+}
+#banner div, #novidades div {
+  width: 300px;
+  color: white;
+}
+
+@media screen and (min-width: 720px) {
+  #banner img, #novidades img {
+    width: 450px;
+  }
+  #banner div, #novidades div {
+    width: 500px;
+  }      
+  #banner, #novidades {
+    padding: 50px;
+    column-gap: 50px;
+    margin-top: 5px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  #banner img, #novidades img {
+    width: 550px;
+  }
+  #banner div, #novidades div {
+    width: 600px;
+  }      
+}
+
+
+.grupo-card {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  column-gap: 10px;
+}
+.senai-card {
+  width: 200px;
+  border: 1px solid silver;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.senai-card img {
+  width: 100%;
+  border-radius: 4px 4px 0px 0px;
+}
+.senai-card div {
+  padding: 5px;
+}
+#destaque h2, #saiba_mais {
+  text-align: center;
+}
+.cor-fundo-azul {
+  background-color: aliceblue;
+}
+#carouselExampleCaptions {
+  width: 40vw;
+}
